@@ -1,0 +1,22 @@
+.home_list_content {
+  width: 370px;
+  display: flex;
+}
+
+.home_list_item {
+  display: flex;
+  padding: 0;
+  cursor: pointer;
+}
+
+.home_list_item_div {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.aluno_other_informations {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

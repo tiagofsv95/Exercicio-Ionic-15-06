@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "nome": "Joao",
+    "sobrenome": "Ninguem",
+    "email": "joao.ninguem@una.com",
+    "ra": "32350200",
+    "idade": "22 anos"
+  },
+  {
+    "id": 2,
+    "nome": "Fulano",
+    "sobrenome": "De tal",
+    "email": "fulano.detal@una.com",
+    "ra": "32350200",
+    "idade": "22 anos"
+  },
+  {
+    "id": 3,
+    "nome": "Beltrano",
+    "sobrenome": "De tal",
+    "email": "beltrano.detal@una.com",
+    "ra": "32350200",
+    "idade": "22 anos"
+  }
+]

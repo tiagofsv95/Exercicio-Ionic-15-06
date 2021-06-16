@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Home</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list
+    *ngFor="let aluno of alunoList"
+    class="home_list_content"
+  >
+    <ion-item
+      class="home_list_item"
+      (click)="goToAlunoPage(aluno.id)"
+    >
+      <div class="home_list_item_div">
+        <h1>{{aluno.nome}} {{aluno.sobrenome}}</h1>
+        <h2>RA: {{aluno.ra}}</h2>
+        <div class="aluno_other_informations">
+          <p>
+            {{aluno.email}}
+          </p>
+          <p>
+            {{aluno.idade}}
+          </p>
+        </div>
+      </div>
+    </ion-item>
+  </ion-list>
+</ion-content>
